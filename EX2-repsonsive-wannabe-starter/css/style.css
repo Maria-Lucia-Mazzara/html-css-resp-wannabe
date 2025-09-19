@@ -135,6 +135,12 @@ img {
         width: 765px;
     }
 
+    .steps {
+        .container {
+            width: 785px;
+        }
+    }
+
     .row {
         width: 765px;
     }
@@ -148,7 +154,7 @@ img {
     }
 
     img {
-        width: 765px;
+        width: 765px
     }
 
 }
