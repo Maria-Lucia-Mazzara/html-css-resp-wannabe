@@ -135,11 +135,6 @@ img {
         width: 765px;
     }
 
-    .steps {
-        .container {
-            width: 785px;
-        }
-    }
 
     .row {
         width: 765px;
@@ -158,3 +153,29 @@ img {
     }
 
 }
+
+@media screen and (max-width: 480px) {
+.container {
+    width: 480px;
+}
+
+.row {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col {
+    justify-self: unset;: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
